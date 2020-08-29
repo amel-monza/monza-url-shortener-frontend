@@ -1,0 +1,38 @@
+
+@mixin at700 {
+  @media screen and (max-width: 700px) {
+    @content
+  }
+};
+
+@mixin at605 {
+  @media screen and (max-width: 605px) {
+    @content
+  }
+};
+
+@mixin at600 {
+  @media screen and (max-width: 600px) {
+    @content
+  }
+};
+
+
+@mixin at500 {
+  @media screen and (max-width: 500px) {
+    @content
+  }
+};
+
+
+@mixin at319 {
+  @media screen and (max-width: 319px) {
+    @content
+  }
+};
+
+@mixin at313 {
+  @media screen and (max-width: 313px) {
+    @content
+  }
+};
