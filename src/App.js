@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter, Switch } from 'react-router-dom';
 import { Header } from './components/Header/Header';
  
 export const App = () => {
@@ -8,9 +8,7 @@ export const App = () => {
     <BrowserRouter>
       <Switch>
         <Header/>
-     
-       
-    </Switch>
+      </Switch>
     </BrowserRouter>
   );
 }
